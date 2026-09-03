@@ -1576,7 +1576,8 @@
           tags:
           - CableCoil
     - hand:
-        emptyRepresentative: FloorTileItemExoBorg
+        # Classic: Respritening uses FloorTileItemExoBorg.
+        emptyRepresentative: FloorTileItemXenoborg
         emptyLabel: borg-slot-tiles-empty
         whitelist:
           components:

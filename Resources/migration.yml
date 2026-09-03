@@ -941,39 +941,40 @@ CrateEngineeringThruster: CrateSpaceThruster
 BlastDoorXenoborg: BlastDoorXeno
 BlastDoorXenoborgOpen: BlastDoorXenoOpen
 
+# Classic: Removed.
 ### Dark Tiles
-FloorTileItemDarkDiagonalMini: FloorTileItemDark
-FloorTileItemDarkDiagonal: FloorTileItemDark
-FloorTileItemDarkOffset: FloorTileItemDark
-FloorTileItemDarkSlatsContinuous: FloorTileItemDarkVerticalSlatsBordered
+#FloorTileItemDarkDiagonalMini: FloorTileItemDark
+#FloorTileItemDarkDiagonal: FloorTileItemDark
+#FloorTileItemDarkOffset: FloorTileItemDark
+#FloorTileItemDarkSlatsContinuous: FloorTileItemDarkVerticalSlatsBordered
 
 ### Steel Tiles
-FloorTileItemSteelDiagonalMini: FloorTileItemSteel
-FloorTileItemSteelDiagonal: FloorTileItemSteel
-FloorTileItemSteelOffset: FloorTileItemSteel
-FloorTileItemShowroom: FloorTileItemSteel
-FloorTileItemSteelSlatsContinuous: FloorTileItemSteelVerticalSlatsBordered
+#FloorTileItemSteelDiagonalMini: FloorTileItemSteel
+#FloorTileItemSteelDiagonal: FloorTileItemSteel
+#FloorTileItemSteelOffset: FloorTileItemSteel
+#FloorTileItemShowroom: FloorTileItemSteel
+#FloorTileItemSteelSlatsContinuous: FloorTileItemSteelVerticalSlatsBordered
 
 ### White Tiles
-FloorTileItemWhiteDiagonalMini: FloorTileItemWhite
-FloorTileItemWhiteDiagonal: FloorTileItemWhite
-FloorTileItemWhiteOffset: FloorTileItemWhite
-FloorTileItemWhiteSlatsContinuous: FloorTileItemWhiteVerticalSlatsBordered
+#FloorTileItemWhiteDiagonalMini: FloorTileItemWhite
+#FloorTileItemWhiteDiagonal: FloorTileItemWhite
+#FloorTileItemWhiteOffset: FloorTileItemWhite
+#FloorTileItemWhiteSlatsContinuous: FloorTileItemWhiteVerticalSlatsBordered
 
 ### Misc Tiles
-FloorTileItemUraniumMarble: FloorTileItemDarkMarble
-FloorTileItemPlasmaMarble: FloorTileItemWhiteMarble
-FloorTileItemEighties: FloorTileItemArcadeBlue
-FloorTileItemArcadeBlue2: FloorTileItemArcadeBlue
-FloorTileItemElevatorShaft: FloorTileItemDark
-FloorTileItemMining: FloorTileItemDarkPlastic
-FloorTileItemMiningLight: FloorTileItemDarkPlastic
-FloorTileItemMiningDark: FloorTileItemDarkPlastic
-FloorTileItemRockVault: FloorTileItemSteel
-FloorTileItemBrassReebe: null
-FloorTileItemBrassFilled: null
-FloorBananiumEntity: null
-FloorTileItemMono: FloorTileItemSteel
+#FloorTileItemUraniumMarble: FloorTileItemDarkMarble
+#FloorTileItemPlasmaMarble: FloorTileItemWhiteMarble
+#FloorTileItemEighties: FloorTileItemArcadeBlue
+#FloorTileItemArcadeBlue2: FloorTileItemArcadeBlue
+#FloorTileItemElevatorShaft: FloorTileItemDark
+#FloorTileItemMining: FloorTileItemDarkPlastic
+#FloorTileItemMiningLight: FloorTileItemDarkPlastic
+#FloorTileItemMiningDark: FloorTileItemDarkPlastic
+#FloorTileItemRockVault: FloorTileItemSteel
+#FloorTileItemBrassReebe: null
+#FloorTileItemBrassFilled: null
+#FloorBananiumEntity: null
+#FloorTileItemMono: FloorTileItemSteel
 
 # 2026-07-23
 AirAlarmAssemblyXeno: AirAlarmAssembly
@@ -993,16 +994,17 @@ Turnstile: EnergyGate
 MetalDoor: SilverDoor
 MiningWindow: ReinforcedWindow
 MiningWindowDiagonal: ReinforcedWindowDiagonal
-FloorTileItemLightAstroGrass: FloorTileItemAstroGrass
-FloorTileItemGrayConcrete: FloorTileItemConcrete
-FloorTileItemGrayConcreteMono: FloorTileItemConcreteMono
-FloorTileItemGrayConcreteSmooth: FloorTileItemConcreteSmooth
-FloorTileItemOldConcrete: FloorTileItemConcrete
-FloorTileItemOldConcreteMono: FloorTileItemConcreteMono
-FloorTileItemOldConcreteSmooth: FloorTileItemConcreteSmooth
-FloorTileItemIronsandConcrete: null
-FloorTileItemIronsandConcreteMono: null
-FloorTileItemIronsandConcreteSmooth: null
+# Classic: Removed.
+#FloorTileItemLightAstroGrass: FloorTileItemAstroGrass
+#FloorTileItemGrayConcrete: FloorTileItemConcrete
+#FloorTileItemGrayConcreteMono: FloorTileItemConcreteMono
+#FloorTileItemGrayConcreteSmooth: FloorTileItemConcreteSmooth
+#FloorTileItemOldConcrete: FloorTileItemConcrete
+#FloorTileItemOldConcreteMono: FloorTileItemConcreteMono
+#FloorTileItemOldConcreteSmooth: FloorTileItemConcreteSmooth
+#FloorTileItemIronsandConcrete: null
+#FloorTileItemIronsandConcreteMono: null
+#FloorTileItemIronsandConcreteSmooth: null
 IronSandstone: IronRock
 IronSandstoneMining: IronRock
 AsteroidRockBananium: AsteroidRock
@@ -1037,27 +1039,29 @@ WallRockAndesiteTin: WallRockTin
 WallRockAndesiteUranium: WallRockUranium
 WallRockAndesiteArtifactFragment: WallRockArtifactFragment
 WallRockAndesiteSalt: WallRockSalt
-FloorTileItemTechmaint: FloorTileItemSteelMaint
-FloorTileItemXeno: FloorTileItemExoViscera
-FloorTileItemXenoSteel: FloorTileItemExoHull
-FloorTileItemXenoSteelCorner: FloorTileItemExoCornerSW
-FloorTileItemXenoMaint: FloorTileItemExoTechmaint
-FloorTileItemXenoborg: FloorTileItemExoBorg
-FloorTileItemDarkSquiggly: FloorTileItemExoHorizontal
+# Classic: Removed.
+#FloorTileItemTechmaint: FloorTileItemSteelMaint
+#FloorTileItemXeno: FloorTileItemExoViscera
+#FloorTileItemXenoSteel: FloorTileItemExoHull
+#FloorTileItemXenoSteelCorner: FloorTileItemExoCornerSW
+#FloorTileItemXenoMaint: FloorTileItemExoTechmaint
+#FloorTileItemXenoborg: FloorTileItemExoBorg
+#FloorTileItemDarkSquiggly: FloorTileItemExoHorizontal
 
 # 2026-08-04
-FloorSnowChasm: FloorChasmEntity
-FloorDesertChasm: FloorChasmEntity
-FloorChromiteChasm: FloorChasmEntity
+# Classic: Removed.
+#FloorSnowChasm: FloorChasmEntity
+#FloorDesertChasm: FloorChasmEntity
+#FloorChromiteChasm: FloorChasmEntity
 
 # 2026-08-06
-FloorTileItemHydro: FloorTileItemSteel
+#FloorTileItemHydro: FloorTileItemSteel # Classic: Removed.
 WallRiveted: WallMarble
 WallSpawnAsteroidBananium: null
 WallSpawnAsteroidBananiumCrab: null
 
 # 2026-08-11
-FloorTileItemDirty: null
+#FloorTileItemDirty: null # Classic: Removed.
 PinionAirlockAssemblyGlass: AirlockAssemblyGlass
 AnomalyRockBananium: AnomalyRockCoal
 ClockworkGirder: Girder
@@ -1130,3 +1134,18 @@ DrinkNeurotoxinGlass: null
 #2026-08-19
 JanitorServiceLight: null
 
+#2026-09-03
+# Classic: Revert entities the Respritening added.
+FloorTileItemExoViscera: FloorTileItemXeno
+FloorTileItemExoHull: FloorTileItemXenoSteel
+FloorTileItemExoTechmaint: FloorTileItemXenoMaint
+FloorTileItemExoBorg: FloorTileItemXenoborg
+FloorTileItemExoCornerNE: FloorTileItemXenoSteelCorner
+FloorTileItemExoCornerNW: FloorTileItemXenoSteelCorner
+FloorTileItemExoCornerSE: FloorTileItemXenoSteelCorner
+FloorTileItemExoCornerSW: FloorTileItemXenoSteelCorner
+FloorTileItemExoHorizontal: FloorTileItemDarkSquiggly
+FloorTileItemExoVertical: FloorTileItemDarkSquiggly
+FloorTileItemDarkMarbleMono: FloorTileItemDarkMarble
+FloorTileItemWhiteMarbleMono: FloorTileItemWhiteMarble
+FloorSwimmingPoolEntity: FloorWaterEntity

@@ -17,3 +17,17 @@
   id: FloorTileStackArcadeRed
   name: stack-red-arcade-tile
   spawn: FloorTileItemArcadeRed
+
+# Classic: restored tile stacks below.
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileStackEighties
+  name: stack-eighties-floor-tile
+  spawn: FloorTileItemEighties
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileStackArcadeBlue2
+  name: stack-blue-arcade-tile
+  spawn: FloorTileItemArcadeBlue2

@@ -59,3 +59,11 @@
   id: FloorTileAstroIronsandBorderless
   name: stack-astro-ironsand-floor-borderless
   spawn: FloorTileItemAstroIronsandBorderless
+
+# Classic: restored tile stacks below.
+
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileLightAstroGrass
+  name: stack-light-astro-grass-floor
+  spawn: FloorTileItemLightAstroGrass
