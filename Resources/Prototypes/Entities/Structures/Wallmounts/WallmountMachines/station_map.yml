@@ -6,11 +6,13 @@
   suffix: Wall broken
   components:
   - type: Sprite
-    sprite: Structures/Wallmounts/station-map.rsi
-    offset: 0, -0.25
+  # Classic: Respritening renamed.
+    sprite: Structures/Machines/station_map.rsi
+#    offset: 0, -0.25 # Classic: Removed.
     drawdepth: WallMountedItems
     layers:
-    - state: broken
+  # Classic: Restored state.
+    - state: station_map_broken
   - type: Destructible
     thresholds:
     - trigger: &DamageMachineFlimsy
@@ -41,16 +43,20 @@
   - type: Appearance
   - type: StationMap
   - type: Sprite
-    sprite: Structures/Wallmounts/station-map.rsi
-    offset: 0, -0.25
+  # Classic: Respritening renamed.
+    sprite: Structures/Machines/station_map.rsi
+#    offset: 0, -0.25 # Classic: Removed.
     layers:
-    - state: base
+  # Classic: Restored state.
+    - state: station_map0
     - state: unshaded
       shader: unshaded
       map: [ "enum.PowerDeviceVisualLayers.Powered" ]
   - type: Icon
-    sprite: Structures/Wallmounts/station-map.rsi
-    state: base
+  # Classic: Respritening renamed.
+    sprite: Structures/Machines/station_map.rsi
+  # Classic: Restored state.
+    state: station_map0
   - type: GenericVisualizer
     visuals:
       enum.PowerDeviceVisuals.Powered:
@@ -114,19 +120,22 @@
   - type: WallMount
     arc: 360
   - type: Sprite
-    sprite: Structures/Wallmounts/station-map.rsi
-    offset: 0, -0.25
+  # Classic: Respritening renamed.
+    sprite: Structures/Machines/station_map.rsi
+#    offset: 0, -0.25 # Classic: Removed.
     layers:
-    - state: frame0
+  # Classic: Restored state.
+    - state: station_map_frame1
       map: [ "enum.ConstructionVisuals.Layer" ]
   - type: Appearance
   - type: GenericVisualizer
     visuals:
       enum.ConstructionVisuals.Key:
         enum.ConstructionVisuals.Layer:
-          assembly: { state: frame0 }
-          wired: { state: frame1 }
-          electronics: { state: frame2 }
+  # Classic: Restored states.
+          assembly: { state: station_map_frame0 }
+          wired: { state: station_map_frame1 }
+          electronics: { state: station_map_frame2 }
   - type: Construction
     graph: StationMap
     node: assembly

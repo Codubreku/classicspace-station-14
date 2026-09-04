@@ -10,16 +10,18 @@
     arc: 175
   - type: StationAiWhitelist
   - type: Sprite
-    offset: 0, -0.25
-    drawdepth: WallMountedItems
+#    offset: 0, -0.25 # Classic: Removed.
+  # Classic: Restored drawdepth.
+    drawdepth: SmallObjects
     sprite: Structures/Wallmounts/switch.rsi
     layers:
-    - state: base
+  # Classic: Added the on state that was never used in the original.
+#    - state: base
     - map: [ "shaded" ]
-      state: off
-    - map: [ "unshaded" ]
-      state: off-unshaded
-      shader: unshaded
+      state: on
+#    - map: [ "unshaded" ]
+#      state: off-unshaded
+#      shader: unshaded
   - type: Appearance
   - type: GenericVisualizer
     visuals:
@@ -27,9 +29,9 @@
         shaded:
           True: { state: on }
           False: { state: off }
-        unshaded:
-          True: { state: on-unshaded }
-          False: { state: off-unshaded }
+#        unshaded:
+#          True: { state: on-unshaded }
+#          False: { state: off-unshaded }
   - type: SignalSwitch
   - type: UseDelay
     delay: 0.5 # prevent light-toggling auto-clickers.
@@ -72,14 +74,17 @@
     arc: 175
   - type: StationAiWhitelist
   - type: Sprite
-    offset: 0, -0.25
-    drawdepth: WallMountedItems
+#    offset: 0, -0.25 # Classic: Removed.
+  # Classic: Restored drawdepth.
+    drawdepth: SmallObjects
     sprite: Structures/Wallmounts/switch.rsi
-    layers:
-    - state: base
-    - state: button
-    - state: button-unshaded
-      shader: unshaded
+  # Classic: Restored state.
+    state: dead
+#    layers:
+#    - state: base
+#    - state: button
+#    - state: button-unshaded
+#      shader: unshaded
   - type: UseDelay
     delay: 0.5 # prevent light-toggling auto-clickers.
   - type: SignalSwitch
@@ -112,16 +117,18 @@
   description: It's a switch for toggling lights that are connected to the same apc.
   components:
   - type: Sprite
-    offset: 0, -0.25
-    drawdepth: WallMountedItems
+#    offset: 0, -0.25 # Classic: Removed.
+  # Classic: Restored drawdepth.
+    drawdepth: SmallObjects
     sprite: Structures/Wallmounts/switch.rsi
     layers:
-    - state: base
+  # Classic: Added the on state that was never used in the original.
+#    - state: base
     - map: [ "shaded" ]
-      state: off
-    - map: [ "unshaded" ]
-      state: off-unshaded
-      shader: unshaded
+      state: on
+#    - map: [ "unshaded" ]
+#      state: off-unshaded
+#      shader: unshaded
   - type: Appearance
   - type: GenericVisualizer
     visuals:
@@ -129,9 +136,9 @@
         shaded:
           True: { state: on }
           False: { state: off }
-        unshaded:
-          True: { state: on-unshaded }
-          False: { state: off-unshaded }
+#        unshaded:
+#          True: { state: on-unshaded }
+#          False: { state: off-unshaded }
   - type: WallMount
     arc: 175
   - type: Rotatable
@@ -197,31 +204,38 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Lock
+  # Classic: readded LockVisuals.
+  - type: LockVisuals
   - type: AccessReader
   - type: Sprite
-    offset: 0, -0.25
+#    offset: 0, -0.25 # Classic: Removed.
     drawdepth: WallMountedItems
-    sprite: Structures/Wallmounts/switch-lockable.rsi
+  # Classic: Respritening renamed.
+    sprite: Structures/Wallmounts/locked_switch.rsi
     layers:
     - state: base
-    - state: button
-    - state: button-unshaded
-      shader: unshaded
-    - map: [ "lock-shaded" ]
-      state: lock-locked
-    - map: [ "lock-unshaded" ]
-      state: lock-locked-unshaded
-      shader: unshaded
+  # Classic: Restored state.
+    - state: locked
+      map: ["enum.LockVisualLayers.Lock"]
+#    - state: button
+#    - state: button-unshaded
+#      shader: unshaded
+#    - map: [ "lock-shaded" ]
+#      state: lock-locked
+#    - map: [ "lock-unshaded" ]
+#      state: lock-locked-unshaded
+#      shader: unshaded
   - type: Appearance
-  - type: GenericVisualizer
-    visuals:
-      enum.LockVisuals.Locked:
-        lock-shaded:
-          True: { state: lock-locked }
-          False: { state: lock-unlocked }
-        lock-unshaded:
-          True: { state: lock-locked-unshaded }
-          False: { state: lock-unlocked-unshaded }
+   # Classic: Removed.
+#  - type: GenericVisualizer
+#    visuals:
+#      enum.LockVisuals.Locked:
+#        lock-shaded:
+#          True: { state: lock-locked }
+#          False: { state: lock-unlocked }
+#        lock-unshaded:
+#          True: { state: lock-locked-unshaded }
+#          False: { state: lock-unlocked-unshaded }
 
 - type: entity
   parent: LockableButton
@@ -481,6 +495,9 @@
   description: It's a frame to help distinguish switches visually.
   placement:
     mode: SnapgridCenter
+  # Classic: readded snap.
+    snap:
+    - Wallmount
   components:
   - type: Clickable
   - type: WallMount
@@ -488,9 +505,10 @@
   - type: Physics
     canCollide: false
   - type: Sprite
-    offset: 0, -0.25
+#    offset: 0, -0.25 # Classic: Removed.
     drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/switch-frame.rsi
+  # Classic: Respritening renamed.
+    sprite: Structures/Wallmounts/switch_frame.rsi
     state: grey
   - type: Rotatable
   - type: Fixtures
@@ -517,15 +535,17 @@
   suffix: caution
   components:
   - type: Sprite
-    state: caution-security
+  # Classic: Respritening renamed.
+    state: caution_security
 
+# Classic: Restored original ButtonFrameExit.
 - type: entity
-  id: ButtonFrameWhite
+  id: ButtonFrameExit
   parent: ButtonFrame
-  suffix: white
+  suffix: exit
   components:
   - type: Sprite
-    state: white
+    state: exit
 
 - type: entity
   id: ButtonFrameJanitor

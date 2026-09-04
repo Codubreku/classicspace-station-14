@@ -979,10 +979,10 @@ CrateEngineeringThruster: CrateSpaceThruster
 #FloorTileItemMono: FloorTileItemSteel
 
 # 2026-07-23
-AirAlarmAssemblyXeno: AirAlarmAssembly
-AirAlarmXeno: AirAlarm
-FireAlarmAssemblyXeno: FireAlarmAssembly
-FireAlarmXeno: FireAlarm
+#AirAlarmAssemblyXeno: AirAlarmAssembly # Classic: Removed.
+#AirAlarmXeno: AirAlarm # Classic: Removed.
+#FireAlarmAssemblyXeno: FireAlarmAssembly # Classic: Removed.
+#FireAlarmXeno: FireAlarm # Classic: Removed.
 
 # 2026-07-26
 IronsandStepConvexCorner: null
@@ -1067,7 +1067,7 @@ WallSpawnAsteroidBananiumCrab: null
 AnomalyRockBananium: AnomalyRockCoal
 #ClockworkGirder: Girder # Classic: Removed.
 #BaseAsteroidRock: AsteroidRock # Classic: Removed.
-ButtonFrameExit: ButtonFrameWhite
+#ButtonFrameExit: ButtonFrameWhite # Classic: Removed.
 
 # 2026-08-12
 WindoorSecure: Windoor
@@ -1161,3 +1161,4 @@ WallMalignIndestructibleNoOcclusion: WallNecropolisIndestructibleNoOcclusion
 MalignWindow: Window
 RegalWindow: Window
 MeteorRockBananium: AsteroidRockBananium
+ButtonFrameWhite: ButtonFrameExit

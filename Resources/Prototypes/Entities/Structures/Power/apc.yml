@@ -24,8 +24,9 @@
     access: [["Engineering"]]
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: Structures/Wallmounts/apc.rsi
-    offset: 0, -0.25
+  # Classic: Respritening renamed.
+    sprite: Structures/Power/apc.rsi
+#    offset: 0, -0.25 # Classic: Removed.
     layers:
     - state: base
     - state: panel
@@ -34,12 +35,16 @@
     - state: display-charging
       shader: unshaded
       map: ["enum.ApcVisualLayers.ChargeState"]
-    - state: channel-on
+  # Classic: Restored state.
+    - state: lock1-locked
       shader: unshaded
       map: ["enum.ApcVisualLayers.Equipment"]
       visible: false
   - type: Appearance
   - type: ApcVisuals
+  # Classic: To-do: Make a new classic APC sprite for the new "tripped breaker", currently use "lack" as placeholder.
+    channelIndicatorSuffixes: [ null, null, null, null ]
+    screenStateSuffixes: [ "lack", "charging", "full", "remote", "lack" ]
   - type: Battery
     # Very important:
     # Disable networking to prevent the battery getting continuously dirtied every tick as it interacts with the power network.
@@ -63,7 +68,8 @@
     sourceNode: input
     loadNode: output
     collectionName: apc
-    sprite: Structures/Wallmounts/apc.rsi
+  # Classic: Respritening renamed.
+    sprite: Structures/Power/apc.rsi
     state: static
   - type: BatteryCharger
     voltage: Medium
@@ -141,7 +147,8 @@
     mode: SnapgridCenter
   components:
   - type: Sprite
-    sprite: Structures/Wallmounts/apc.rsi
+  # Classic: Respritening renamed.
+    sprite: Structures/Power/apc.rsi
     state: frame
   - type: Construction
     graph: APC
