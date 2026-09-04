@@ -67,7 +67,8 @@
   - type: Sprite
     layers:
     - state: gibtonite_inactive
-      sprite: Structures/Walls/stone-ore.rsi
+    # Classic: Respritening renamed.
+      sprite: Structures/Walls/rock.rsi
       visible: false
       map: [ "enum.MiningScannerVisualLayers.Overlay", "gib" ]
   - type: Appearance
@@ -132,7 +133,8 @@
   - type: Sprite
     layers:
     - state: rock_coal
-      sprite: Structures/Walls/stone-ore.rsi
+    # Classic: Respritening renamed.
+      sprite: Structures/Walls/rock.rsi
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
 - type: entity
@@ -147,7 +149,8 @@
   - type: Sprite
     layers:
     - state: rock_gold
-      sprite: Structures/Walls/stone-ore.rsi
+    # Classic: Respritening renamed.
+      sprite: Structures/Walls/rock.rsi
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
 - type: entity
@@ -162,7 +165,8 @@
   - type: Sprite
     layers:
     - state: rock_diamond
-      sprite: Structures/Walls/stone-ore.rsi
+    # Classic: Respritening renamed.
+      sprite: Structures/Walls/rock.rsi
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
 - type: entity
@@ -177,7 +181,8 @@
   - type: Sprite
     layers:
     - state: rock_phoron
-      sprite: Structures/Walls/stone-ore.rsi
+    # Classic: Respritening renamed.
+      sprite: Structures/Walls/rock.rsi
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
 - type: entity
@@ -192,7 +197,8 @@
   - type: Sprite
     layers:
     - state: rock_quartz
-      sprite: Structures/Walls/stone-ore.rsi
+    # Classic: Respritening renamed.
+      sprite: Structures/Walls/rock.rsi
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
 - type: entity
@@ -207,7 +213,8 @@
   - type: Sprite
     layers:
     - state: rock_silver
-      sprite: Structures/Walls/stone-ore.rsi
+    # Classic: Respritening renamed.
+      sprite: Structures/Walls/rock.rsi
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
 - type: entity
@@ -222,7 +229,8 @@
   - type: Sprite
     layers:
     - state: rock_tin
-      sprite: Structures/Walls/stone-ore.rsi
+    # Classic: Respritening renamed.
+      sprite: Structures/Walls/rock.rsi
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
 - type: entity
@@ -237,7 +245,8 @@
   - type: Sprite
     layers:
     - state: rock_uranium
-      sprite: Structures/Walls/stone-ore.rsi
+    # Classic: Respritening renamed.
+      sprite: Structures/Walls/rock.rsi
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
 - type: entity
@@ -252,7 +261,8 @@
   - type: Sprite
     layers:
     - state: rock_salt
-      sprite: Structures/Walls/stone-ore.rsi
+    # Classic: Respritening renamed.
+      sprite: Structures/Walls/rock.rsi
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
 - type: entity
@@ -267,7 +277,8 @@
   - type: Sprite
     layers:
     - state: rock_artifact_fragment
-      sprite: Structures/Walls/stone-ore.rsi
+    # Classic: Respritening renamed.
+      sprite: Structures/Walls/rock.rsi
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
 
 - type: entity
