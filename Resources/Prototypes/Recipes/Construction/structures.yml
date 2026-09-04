@@ -58,6 +58,13 @@
   id: ReinforcedGirder
   targetNode: reinforcedGirder
 
+# Classic: Readded.
+- type: construction
+  parent: Girder
+  id: ClockworkGirder
+  graph: ClockworkGirder
+  targetNode: clockGirder
+
 - type: construction
   parent: Girder
   id: Wall
@@ -67,6 +74,12 @@
   parent: Girder
   id: ReinforcedWall
   targetNode: reinforcedWall
+
+# Classic: Readded.
+- type: construction
+  parent: ClockworkGirder
+  id: WallClock
+  targetNode: clockworkWall
 
 - type: construction
   parent: Girder
@@ -83,6 +96,12 @@
   parent: Girder
   id: SilverWall
   targetNode: silverWall
+
+# Classic: Readded.
+- type: construction
+  parent: Girder
+  id: PlasticWall
+  targetNode: plasticWall
 
 - type: construction
   parent: Girder
@@ -105,6 +124,12 @@
   name: construction-recipe-diagonal-shuttle-wall
   targetNode: diagonalshuttleWall
   canRotate: true
+
+# Classic: Readded.
+- type: construction
+  parent: Girder
+  id: ClownWall
+  targetNode: bananiumWall
 
 - type: construction
   parent: Girder
@@ -131,12 +156,25 @@
   - !type:TileNotBlocked
     failIfSpace: false
 
+# Classic: Readded.
+- type: construction
+  parent: Grille
+  id: ClockGrille
+  graph: ClockGrille
+  targetNode: clockGrille
+
 - type: construction
   parent: Grille
   id: GrilleDiagonal
   graph: GrilleDiagonal
   targetNode: grilleDiagonal
   canRotate: true
+
+# Classic: Readded.
+- type: construction
+  parent: GrilleDiagonal
+  id: ClockworkGrilleDiagonal
+  targetNode: clockworkGrilleDiagonal
 # endregion Grilles
 
 # region Windows
@@ -166,6 +204,18 @@
   parent: BaseWindow
   id: TintedWindow
   targetNode: tintedWindow
+
+# Classic: Readded.
+- type: construction
+  parent: BaseWindow
+  id: ClockworkWindow
+  targetNode: clockworkWindow
+
+- type: construction
+  parent: BaseWindowDiagonal
+  id: ClockworkWindowDiagonal
+  name: construction-recipe-clockwork-window-diagonal
+  targetNode: clockworkWindowDiagonal
 
 - type: construction
   parent: BaseWindow
@@ -253,6 +303,12 @@
     - !type:NoWindowsInTile
   objectType: Structure
   placementMode: SnapgridCenter
+
+# Classic: Readded.
+- type: construction
+  parent: WindowDirectional
+  id: WindowClockworkDirectional
+  targetNode: windowClockworkDirectional
 
 - type: construction
   parent: WindowDirectional
@@ -346,6 +402,19 @@
   - !type:TileType
     targets:
     - Lattice
+    - Plating
+
+# Classic: Readded.
+- type: construction
+  parent: BaseStructureFullTile
+  id: FloorBananium
+  graph: FloorBananium
+  targetNode: BananiumFloor
+  conditions:
+  - !type:TileNotBlocked
+    failIfSpace: false
+  - !type:TileType
+    targets:
     - Plating
 
 # endregion Floors
@@ -490,6 +559,20 @@
   id: AirlockGlass
   targetNode: glassAirlock
 
+# Classic: Readded.
+- type: construction
+  parent: BaseStructureFullTile
+  id: PinionAirlock
+  name: construction-recipe-pinion-airlock
+  graph: PinionAirlock
+  targetNode: airlock
+
+- type: construction
+  parent: PinionAirlock
+  id: PinionAirlockGlass
+  name: construction-recipe-pinion-airlock-glass
+  targetNode: glassAirlock
+
 - type: construction
   parent: BaseStructureFullTileDirectional
   id: AirlockShuttle
@@ -510,6 +593,11 @@
   graph: Windoor
   targetNode: windoor
 
+# Classic: Readded.
+- type: construction
+  parent: Windoor
+  id: ClockworkWindoor
+  targetNode: windoorClockwork
 # endregion Windoors
 
 # region Lighting
@@ -545,36 +633,55 @@
 # endregion Lighting
 
 # region Material Doors
+# Classic: Readded as the base recipe.
 - type: construction
   parent: BaseStructureFullTileDirectional
-  id: SilverDoor
+  id: MetalDoor
   graph: DoorGraph
-  targetNode: silverDoor
+  targetNode: metalDoor
 
 - type: construction
-  parent: SilverDoor
+# Classic: Respritening uses SilverDoor.
+  parent: MetalDoor
   id: WoodDoor
   targetNode: woodDoor
 
 - type: construction
-  parent: SilverDoor
+# Classic: Respritening uses SilverDoor.
+  parent: MetalDoor
   id: PlasmaDoor
   targetNode: plasmaDoor
 
 - type: construction
-  parent: SilverDoor
+# Classic: Respritening uses SilverDoor.
+  parent: MetalDoor
   id: GoldDoor
   targetNode: goldDoor
 
+# Classic: Readded.
 - type: construction
-  parent: SilverDoor
+  parent: MetalDoor
+  id: SilverDoor
+  targetNode: silverDoor
+
+- type: construction
+# Classic: Respritening uses SilverDoor.
+  parent: MetalDoor
   id: PaperDoor
   targetNode: paperDoor
 
 - type: construction
-  parent: SilverDoor
+# Classic: Respritening uses SilverDoor.
+  parent: MetalDoor
   id: CardDoor
   targetNode: cardDoor
+
+# Classic: Readded.
+- type: construction
+  parent: MetalDoor
+  id: BananiumDoor
+  targetNode: bananiumDoor
+
 # endregion Material Doors
 
 # region Plastic Flaps

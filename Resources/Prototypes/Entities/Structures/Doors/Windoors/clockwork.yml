@@ -2,7 +2,9 @@
 # Classic: Modified damage modifiers.
 - type: entity
   abstract: true
-  parent: BaseWindoorGeneric
+  # Classic: delta pressure added to match the modern windoors; clockwork glass is
+  # Classic: reinforced, so it takes the reinforced quarter-tile thresholds.
+  parent: [ BaseDeltaPressureReinforcedGlassQuarter, BaseWindoorGeneric ]
   id: BaseClockworkWindoor
   name: clockwork windoor
   components:
@@ -56,3 +58,9 @@
     - board
   - type: StaticPrice
     price: 240
+  # Classic: tagged like the modern windoor families so the wires panel security
+  # Classic: graph can navigate back to this node.
+  - type: Tag
+    tags:
+    - WindoorClockwork
+    - DoorRemoteWhitelist

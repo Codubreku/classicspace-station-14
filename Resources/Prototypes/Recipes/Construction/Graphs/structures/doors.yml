@@ -6,6 +6,16 @@
       actions:
         - !type:DestroyEntity {}
       edges:
+
+        # Classic: Readded.
+        - to: metalDoor
+          completed:
+            - !type:SnapToGrid { }
+          steps:
+            - material: Steel
+              amount: 10
+              doAfter: 8
+
         - to: woodDoor
           completed:
             - !type:SnapToGrid { }
@@ -34,6 +44,16 @@
             - material: Silver
               amount: 10
               doAfter: 8
+
+        # Classic: Readded.
+        - to: bananiumDoor
+          completed:
+            - !type:SnapToGrid { }
+          steps:
+            - material: Bananium
+              amount: 5
+              doAfter: 8
+
         - to: paperDoor
           completed:
             - !type:SnapToGrid { }
@@ -48,6 +68,20 @@
             - material: Cardboard
               amount: 10
               doAfter: 8
+
+    # Classic: Readded.
+    - node: metalDoor
+      entity: MetalDoor
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 10
+          steps:
+            - tool: Anchoring
+              doAfter: 8
+
     - node: woodDoor
       entity: WoodDoor
       edges:
@@ -117,3 +151,16 @@
           steps:
             - tool: Slicing
               doAfter: 2
+
+    # Classic: Readded.
+    - node: bananiumDoor
+      entity: BananiumDoor
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: MaterialBananium1
+              amount: 5
+          steps:
+            - tool: Anchoring
+              doAfter: 8

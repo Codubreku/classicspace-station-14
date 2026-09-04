@@ -75,17 +75,30 @@
             - tool: Welding
               doAfter: 20
 
-        - to: brassWall
+        # Classic: Removed.
+#        - to: brassWall
+#          completed:
+#            - !type:SnapToGrid
+#              southRotation: true
+#          conditions:
+#            - !type:EntityAnchored {}
+#          steps:
+#            - material: Brass
+#              amount: 2
+#            - tool: Welding
+#              doAfter: 20
+
+        # Classic: Readded.
+        - to: plasticWall
           completed:
             - !type:SnapToGrid
               southRotation: true
           conditions:
             - !type:EntityAnchored {}
           steps:
-            - material: Brass
+            - material: Plastic
               amount: 2
-            - tool: Welding
-              doAfter: 20
+              doAfter: 2
 
         - to: plasmaWall
           completed:
@@ -108,6 +121,20 @@
           steps:
             - material: Gold
               amount: 2
+            - tool: Welding
+              doAfter: 20
+
+        # Classic: Readded.
+        - to: bananiumWall
+          completed:
+            - !type:SnapToGrid
+              southRotation: true
+          conditions:
+            - !type:EntityAnchored {}
+          steps:
+            - material: Bananium
+              amount: 2
+              doAfter: 2
             - tool: Welding
               doAfter: 20
 

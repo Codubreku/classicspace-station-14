@@ -1558,6 +1558,11 @@
 - type: Tag
   id: WindoorUranium # Used in ConstructionGraph "Windoor" to navigate between Windoor, PlasmaWindoor, and UraniumWindoor airlocks.
 
+# Classic: readded windoor family, tagged like the others so the wires panel
+# Classic: security graph can navigate back to it.
+- type: Tag
+  id: WindoorClockwork # Used in ConstructionGraph "Windoor" to navigate between Windoor, PlasmaWindoor, and UraniumWindoor airlocks.
+
 - type: Tag
   id: Window # Tagged entity is a window. Several systems and several targeting whitelists (XenoArtifactShatterWindows) care about this.
              # .cs: SharedNavMapSystem, ElectrocutionSystem, RevenantSystem, NoWindowsInTile
