@@ -985,9 +985,9 @@ CrateEngineeringThruster: CrateSpaceThruster
 #FireAlarmXeno: FireAlarm # Classic: Removed.
 
 # 2026-07-26
-IronsandStepConvexCorner: null
-IronsandStepConcaveCorner: null
-IronsandStep: null
+#IronsandStepConvexCorner: null # Classic: Removed.
+#IronsandStepConcaveCorner: null # Classic: Removed.
+#IronsandStep: null # Classic: Removed.
 
 # 2026-07-27
 TurnstileGenpopEnter: EnergyGateGenpopEnter
@@ -1058,13 +1058,13 @@ Turnstile: EnergyGate
 # 2026-08-06
 #FloorTileItemHydro: FloorTileItemSteel # Classic: Removed.
 #WallRiveted: WallMarble # Classic: Removed.
-WallSpawnAsteroidBananium: null
-WallSpawnAsteroidBananiumCrab: null
+#WallSpawnAsteroidBananium: null # Classic: Removed.
+#WallSpawnAsteroidBananiumCrab: null # Classic: Removed.
 
 # 2026-08-11
 #FloorTileItemDirty: null # Classic: Removed.
 #PinionAirlockAssemblyGlass: AirlockAssemblyGlass # Classic: Removed.
-AnomalyRockBananium: AnomalyRockCoal
+#AnomalyRockBananium: AnomalyRockCoal # Classic: Removed.
 #ClockworkGirder: Girder # Classic: Removed.
 #BaseAsteroidRock: AsteroidRock # Classic: Removed.
 #ButtonFrameExit: ButtonFrameWhite # Classic: Removed.
