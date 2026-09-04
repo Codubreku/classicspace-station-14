@@ -1,13 +1,16 @@
-﻿- type: entity
+- type: entity
   parent: [ BaseStructureDynamic, StructureHealthDoorWeak ]
   id: FirelockFrame
   name: firelock frame
   description: That is a firelock frame.
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/firelock-base.rsi
+  # Classic: Respritening renamed.
+    sprite: Structures/Doors/Airlocks/Standard/firelock.rsi
     layers:
-    - state: assembly
+  # Classic: Added back frame 1 state.
+    - state: frame1
+      map: [ "enum.ConstructionVisuals.Layer" ]
   - type: Appearance
   - type: Construction
     graph: Firelock
@@ -45,3 +48,12 @@
         layer:
         - HighImpassable
         - MidImpassable
+  # Classic: readded visualizer removed by Respritening.
+  - type: GenericVisualizer
+    visuals:
+      enum.ConstructionVisuals.Key:
+        enum.ConstructionVisuals.Layer:
+          frame1: { state: frame1 }
+          frame2: { state: frame2 }
+          frame3: { state: frame3 }
+          frame4: { state: frame4 }

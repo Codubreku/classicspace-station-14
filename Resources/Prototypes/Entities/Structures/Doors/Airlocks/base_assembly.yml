@@ -8,7 +8,8 @@
   - type: Clickable
   - type: InteractionOutline
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/airlock-base.rsi
+  # Classic: Respritening renamed.
+    sprite: Structures/Doors/Airlocks/Standard/basic.rsi
     state: "assembly"
   - type: Physics
   - type: Fixtures

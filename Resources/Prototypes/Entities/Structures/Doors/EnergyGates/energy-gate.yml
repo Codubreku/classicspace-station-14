@@ -70,9 +70,10 @@
     graph: EnergyGate
     node: energyGate
   - type: DirectionalArrowIndicator
-  - type: IconSmooth
-    key: walls
-    mode: NoSprite
+  # Classic: Removed.
+#  - type: IconSmooth
+#    key: walls
+#    mode: NoSprite
   - type: PointLight
     energy: 2.2
     color: "#cc3a41"

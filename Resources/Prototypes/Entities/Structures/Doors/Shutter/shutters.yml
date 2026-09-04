@@ -94,9 +94,10 @@
   - type: BlockWeather
   - type: PlacementReplacement
     key: shutters
-  - type: IconSmooth
-    key: walls
-    mode: NoSprite
+  # Classic: Removed.
+#  - type: IconSmooth
+#    key: walls
+#    mode: NoSprite
   - type: StructureAligner
   - type: StructureAlignerPylon
 
@@ -147,7 +148,8 @@
   description: These come with extra-radiation-resistant paint.
   components:
   - type: Sprite
-    sprite: Structures/Doors/Shutters/shutters-radiation.rsi
+  # Classic: Respritening renamed.
+    sprite: Structures/Doors/Shutters/shutters_radiation.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -185,7 +187,8 @@
   description: The Best (TM) place to see your friends explode!
   components:
   - type: Sprite
-    sprite: Structures/Doors/Shutters/shutters-window.rsi
+  # Classic: Respritening renamed.
+    sprite: Structures/Doors/Shutters/shutters_window.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -235,7 +238,8 @@
   components:
   - type: Sprite
     sprite: Structures/Doors/Shutters/shutters.rsi
-    state: assembly
+  # Classic: Restored state.
+    state: frame
   - type: Construction
     graph: Shutters
     node: frame1

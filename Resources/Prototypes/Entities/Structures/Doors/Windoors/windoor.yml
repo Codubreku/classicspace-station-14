@@ -456,3 +456,11 @@
       board: [ DoorElectronicsSyndicateAgent ]
 
 #endregion
+
+# Classic: readded entities removed by Respritening.
+
+- type: entity
+  id: WindoorClockwork
+  parent: BaseClockworkWindoor
+  name: clockwork windoor
+  description: It's a sturdy window and a sliding door. Wow!

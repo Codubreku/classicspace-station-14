@@ -88,6 +88,7 @@
     price: 130
 
 # Classic: readded entities removed by Respritening.
+# Classic: Modified damage modifiers.
 
 - type: entity
   parent: Girder
@@ -107,7 +108,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 50
+        damage: 80
       behaviors:
       - !type:SpawnEntitiesBehavior
         spawn:

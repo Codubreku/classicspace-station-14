@@ -10,7 +10,8 @@
     - Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: Structures/Specific/plastic-flaps.rsi
+  # Classic: Respritening renamed.
+    sprite: Structures/plastic_flaps.rsi
     state: plasticflaps
     drawdepth: Mobs
   - type: Physics
@@ -43,9 +44,10 @@
             max: 3
   - type: StaticPrice
     price: 100
-  - type: IconSmooth
-    key: walls
-    mode: NoSprite
+  # Classic: Removed.
+#  - type: IconSmooth
+#    key: walls
+#    mode: NoSprite
   - type: PlacementReplacement
     key: walls
   - type: StructureAligner

@@ -89,3 +89,29 @@
   - type: Construction
     graph: Windoor
     node: uglass
+
+# Classic: readded entities removed by Respritening.
+
+- type: entity
+  # Classic: Respritening retired BaseWindoorAssembly in favor of WindoorAssembly.
+  parent: WindoorAssembly
+  id: WindoorAssemblyClockwork
+  name: clockwork windoor assembly
+  description: It opens, it closes, and you can see through it! This one looks tough.
+  components:
+  - type: Sprite
+    sprite: Structures/Doors/Windoors/clockwork_windoor.rsi
+    layers:
+    - state: open
+  - type: Destructible
+    thresholds:
+    - trigger: *DamageDoorWeak
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          SheetBrass1: *BaseWindoorDrop
+  - type: Construction
+    graph: Windoor
+    node: assemblyClockwork
+
+#plasma windoor assemblies
