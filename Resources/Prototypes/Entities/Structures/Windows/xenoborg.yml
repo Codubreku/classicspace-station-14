@@ -5,10 +5,13 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/exo-resin-borg.rsi
+  # Classic: Respritening renamed.
+    sprite: Structures/Windows/xenoborg.rsi
   - type: Icon
-    sprite: Structures/Windows/exo-resin-borg.rsi
+  # Classic: Respritening renamed.
+    sprite: Structures/Windows/xenoborg.rsi
     state: full
   - type: IconSmooth
-    key: walls
+  # Classic: Restored smoothing group.
+    key: windows
     base: xenoborg

@@ -174,19 +174,47 @@
             - tool: Prying
               doAfter: 10
 
-    - node: brassWall
-      entity: WallBrass
+    # Classic: Removed.
+#    - node: brassWall
+#      entity: WallBrass
+#      edges:
+#      - to: girder
+#        completed:
+#        - !type:GivePrototype
+#          prototype: SheetBrass1
+#          amount: 2
+#        steps:
+#          - tool: Welding
+#            doAfter: 20
+#          - tool: Prying
+#            doAfter: 10
+
+    # Classic: Readded.
+    - node: plasticWall
+      entity: WallPlastic
       edges:
-      - to: girder
-        completed:
-        - !type:GivePrototype
-          prototype: SheetBrass1
-          amount: 2
-        steps:
-          - tool: Welding
-            doAfter: 20
-          - tool: Prying
-            doAfter: 10
+        - to: girder
+          completed:
+            - !type:GivePrototype
+              prototype: SheetPlastic1
+              amount: 2
+          steps:
+            - tool: Prying
+              doAfter: 10
+
+    - node: bananiumWall
+      entity: WallClown
+      edges:
+        - to: girder
+          completed:
+            - !type:GivePrototype
+              prototype: MaterialBananium1
+              amount: 2
+          steps:
+            - tool: Welding
+              doAfter: 20
+            - tool: Prying
+              doAfter: 10
 
     - node: plasmaWall
       entity: WallPlasma

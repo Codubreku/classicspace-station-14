@@ -846,22 +846,23 @@ CratePartsT3T4: null
 CratePartsT4: null
 
 # 2026-07-16
-WallNecropolis: WallSolid
-WallVaultAlien: WallSolid
-WallVaultRock: WallSolid
-WallVaultSandstone: WallSolid
-WallSandstone: WallSolid
-WallDiamond: WallReinforced
-WallCult: WallBrick
-WallClown: WallGold
-WallClock: WallBrass
-WallPlastic: WallSolid
-ClockworkGrille: Grille
-ClockworkGrilleBroken: GrilleBroken
-ClockworkGrilleDiagonal: GrilleDiagonal
-ClockworkWindow: Window
-ClockworkWindowDiagonal: WindowDiagonal
-WindowClockworkDirectional: WindowDirectional
+# Classic: Removed.
+#WallNecropolis: WallSolid 
+#WallVaultAlien: WallSolid 
+#WallVaultRock: WallSolid 
+#WallVaultSandstone: WallSolid 
+#WallSandstone: WallSolid 
+#WallDiamond: WallReinforced 
+#WallCult: WallBrick 
+#WallClown: WallGold 
+#WallClock: WallBrass 
+#WallPlastic: WallSolid 
+#ClockworkGrille: Grille 
+#ClockworkGrilleBroken: GrilleBroken 
+#ClockworkGrilleDiagonal: GrilleDiagonal 
+#ClockworkWindow: Window 
+#ClockworkWindowDiagonal: WindowDiagonal 
+#WindowClockworkDirectional: WindowDirectional 
 WindoorClockwork: Windoor
 WindoorAssemblyClockwork: WindoorAssembly
 PinionAirlock: Airlock
@@ -870,15 +871,16 @@ PinionAirlockAssembly: AirlockAssembly
 BananiumDoor: GoldDoor
 EncrustedIronstoneDoor: SilverDoor
 IronstoneDoor: SilverDoor
-WallSnowCobblebrick: WallBrick
-WallSandCobblebrick: WallBrick
-WallChromiteCobblebrick: WallBrick
-WallAndesiteCobblebrick: WallBrick
-WallIronsandCobblebrick: WallBrick
-WallCobblebrick: WallConcrete
-WallAsteroidCobblebrick: WallConcrete
-WallBasaltCobblebrick: WallConcrete
-WallIce: WallRockSnow
+# Classic: Removed.
+#WallSnowCobblebrick: WallBrick 
+#WallSandCobblebrick: WallBrick 
+#WallChromiteCobblebrick: WallBrick 
+#WallAndesiteCobblebrick: WallBrick 
+#WallIronsandCobblebrick: WallBrick 
+#WallCobblebrick: WallConcrete 
+#WallAsteroidCobblebrick: WallConcrete 
+#WallBasaltCobblebrick: WallConcrete 
+#WallIce: WallRockSnow 
 
 #2026-07-17
 WeaponRifleM90GrenadeLauncher: null
@@ -992,9 +994,9 @@ TurnstileGenpopEnter: EnergyGateGenpopEnter
 TurnstileGenpopLeave: EnergyGateGenpopLeave
 Turnstile: EnergyGate
 MetalDoor: SilverDoor
-MiningWindow: ReinforcedWindow
-MiningWindowDiagonal: ReinforcedWindowDiagonal
 # Classic: Removed.
+#MiningWindow: ReinforcedWindow 
+#MiningWindowDiagonal: ReinforcedWindowDiagonal
 #FloorTileItemLightAstroGrass: FloorTileItemAstroGrass
 #FloorTileItemGrayConcrete: FloorTileItemConcrete
 #FloorTileItemGrayConcreteMono: FloorTileItemConcreteMono
@@ -1005,41 +1007,40 @@ MiningWindowDiagonal: ReinforcedWindowDiagonal
 #FloorTileItemIronsandConcrete: null
 #FloorTileItemIronsandConcreteMono: null
 #FloorTileItemIronsandConcreteSmooth: null
-IronSandstone: IronRock
-IronSandstoneMining: IronRock
-AsteroidRockBananium: AsteroidRock
-AsteroidRockBananiumCrab: AsteroidRock
-IronRockBananium: IronRock
-WallRockBananium: WallRock
-WallRockChromiteBananium: WallRockChromite
-WallRockSandBananium: WallRockSand
-WallRockSnowBananium: WallRockSnow
-MeteorRockBananium: AsteroidRock
-WallRockBasalt: WallRock
-WallRockBasaltCoal: WallRockCoal
-WallRockBasaltGold: WallRockGold
-WallRockBasaltDiamond: WallRockDiamond
-WallRockBasaltPlasma: WallRockPlasma
-WallRockBasaltQuartz: WallRockQuartz
-WallRockBasaltSilver: WallRockSilver
-WallRockBasaltBananium: WallRock
-WallRockBasaltTin: WallRockTin
-WallRockBasaltUranium: WallRockUranium
-WallRockBasaltArtifactFragment: WallRockArtifactFragment
-WallRockBasaltSalt: WallRockSalt
-WallRockAndesite: WallRock
-WallRockAndesiteCoal: WallRockCoal
-WallRockAndesiteGold: WallRockGold
-WallRockAndesiteDiamond: WallRockDiamond
-WallRockAndesitePlasma: WallRockPlasma
-WallRockAndesiteQuartz: WallRockQuartz
-WallRockAndesiteSilver: WallRockSilver
-WallRockAndesiteBananium: WallRock
-WallRockAndesiteTin: WallRockTin
-WallRockAndesiteUranium: WallRockUranium
-WallRockAndesiteArtifactFragment: WallRockArtifactFragment
-WallRockAndesiteSalt: WallRockSalt
-# Classic: Removed.
+#IronSandstone: IronRock
+#IronSandstoneMining: IronRock
+#AsteroidRockBananium: AsteroidRock
+#AsteroidRockBananiumCrab: AsteroidRock
+#IronRockBananium: IronRock
+#WallRockBananium: WallRock
+#WallRockChromiteBananium: WallRockChromite
+#WallRockSandBananium: WallRockSand
+#WallRockSnowBananium: WallRockSnow
+#MeteorRockBananium: AsteroidRock
+#WallRockBasalt: WallRock
+#WallRockBasaltCoal: WallRockCoal
+#WallRockBasaltGold: WallRockGold
+#WallRockBasaltDiamond: WallRockDiamond
+#WallRockBasaltPlasma: WallRockPlasma
+#WallRockBasaltQuartz: WallRockQuartz
+#WallRockBasaltSilver: WallRockSilver
+#WallRockBasaltBananium: WallRock
+#WallRockBasaltTin: WallRockTin
+#WallRockBasaltUranium: WallRockUranium
+#WallRockBasaltArtifactFragment: WallRockArtifactFragment
+#WallRockBasaltSalt: WallRockSalt
+#WallRockAndesite: WallRock
+#WallRockAndesiteCoal: WallRockCoal
+#WallRockAndesiteGold: WallRockGold
+#WallRockAndesiteDiamond: WallRockDiamond
+#WallRockAndesitePlasma: WallRockPlasma
+#WallRockAndesiteQuartz: WallRockQuartz
+#WallRockAndesiteSilver: WallRockSilver
+#WallRockAndesiteBananium: WallRock
+#WallRockAndesiteTin: WallRockTin
+#WallRockAndesiteUranium: WallRockUranium
+#WallRockAndesiteArtifactFragment: WallRockArtifactFragment
+#WallRockAndesiteSalt: WallRockSalt
 #FloorTileItemTechmaint: FloorTileItemSteelMaint
 #FloorTileItemXeno: FloorTileItemExoViscera
 #FloorTileItemXenoSteel: FloorTileItemExoHull
@@ -1056,7 +1057,7 @@ WallRockAndesiteSalt: WallRockSalt
 
 # 2026-08-06
 #FloorTileItemHydro: FloorTileItemSteel # Classic: Removed.
-WallRiveted: WallMarble
+#WallRiveted: WallMarble # Classic: Removed.
 WallSpawnAsteroidBananium: null
 WallSpawnAsteroidBananiumCrab: null
 
@@ -1064,8 +1065,8 @@ WallSpawnAsteroidBananiumCrab: null
 #FloorTileItemDirty: null # Classic: Removed.
 PinionAirlockAssemblyGlass: AirlockAssemblyGlass
 AnomalyRockBananium: AnomalyRockCoal
-ClockworkGirder: Girder
-BaseAsteroidRock: AsteroidRock
+#ClockworkGirder: Girder # Classic: Removed.
+#BaseAsteroidRock: AsteroidRock # Classic: Removed.
 ButtonFrameExit: ButtonFrameWhite
 
 # 2026-08-12
@@ -1135,7 +1136,7 @@ DrinkNeurotoxinGlass: null
 JanitorServiceLight: null
 
 #2026-09-03
-# Classic: Revert entities the Respritening added.
+# Classic: Revert stuff the Respritening added.
 FloorTileItemExoViscera: FloorTileItemXeno
 FloorTileItemExoHull: FloorTileItemXenoSteel
 FloorTileItemExoTechmaint: FloorTileItemXenoMaint
@@ -1149,3 +1150,14 @@ FloorTileItemExoVertical: FloorTileItemDarkSquiggly
 FloorTileItemDarkMarbleMono: FloorTileItemDarkMarble
 FloorTileItemWhiteMarbleMono: FloorTileItemWhiteMarble
 FloorSwimmingPoolEntity: FloorWaterEntity
+
+WallMarble: WallRiveted
+WallMarbleIndestructible: WallPlastitaniumIndestructible
+WallBrass: WallClock
+WallConcrete: WallCobblebrick
+WallMalign: WallNecropolis
+WallMalignIndestructible: WallNecropolisIndestructible
+WallMalignIndestructibleNoOcclusion: WallNecropolisIndestructibleNoOcclusion
+MalignWindow: Window
+RegalWindow: Window
+MeteorRockBananium: AsteroidRockBananium

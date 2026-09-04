@@ -4,9 +4,11 @@
   name: reinforced uranium window
   components:
   - type: Sprite
-    sprite: Structures/Windows/window-uranium-reinf.rsi
+  # Classic: Respritening renamed.
+    sprite: Structures/Windows/reinforced_uranium_window.rsi
   - type: Icon
-    sprite: Structures/Windows/window-uranium-reinf.rsi
+  # Classic: Respritening renamed.
+    sprite: Structures/Windows/reinforced_uranium_window.rsi
     state: full
   - type: Damageable
     damageModifierSet: GlassReinforcedMod
@@ -131,7 +133,8 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Windows/window-diagonal-uranium-reinf.rsi
+  # Classic: Respritening renamed.
+    sprite: Structures/Windows/reinforced_uranium_diagonal.rsi
     state: state0
   - type: Tag
     tags:
@@ -139,10 +142,12 @@
     - Window
   - type: IconSmooth
     mode: Diagonal
-    key: walls
+  # Classic: Restored smoothing group.
+    key: windows
     base: state
   - type: Icon
-    sprite: Structures/Windows/window-diagonal-uranium-reinf.rsi
+  # Classic: Respritening renamed.
+    sprite: Structures/Windows/reinforced_uranium_diagonal.rsi
     state: state0
   - type: Fixtures
     fixtures:

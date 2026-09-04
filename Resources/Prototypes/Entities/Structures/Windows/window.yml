@@ -24,9 +24,12 @@
     - ForceFixRotations
     - Window
   - type: Sprite
-    sprite: Structures/Windows/window-base.rsi
+    drawdepth: WallTops
+  # Classic: Respritening renamed.
+    sprite: Structures/Windows/window.rsi
   - type: Icon
-    sprite: Structures/Windows/window-base.rsi
+  # Classic: Respritening renamed.
+    sprite: Structures/Windows/window.rsi
     state: full
   - type: Physics
     bodyType: Static
@@ -48,7 +51,8 @@
     fx: EffectRCDDeconstruct4
   - type: Airtight
   - type: IconSmooth
-    key: walls
+  # Classic: Restored smoothing group.
+    key: windows
     base: window
   - type: PlacementReplacement
     key: walls
@@ -80,9 +84,11 @@
   id: Window
   components:
   - type: Sprite
-    sprite: Structures/Windows/window-base.rsi
+  # Classic: Respritening renamed.
+    sprite: Structures/Windows/window.rsi
   - type: Icon
-    sprite: Structures/Windows/window-base.rsi
+  # Classic: Respritening renamed.
+    sprite: Structures/Windows/window.rsi
     state: full
   - type: Damageable
     damageModifierSet: GlassMod
@@ -107,9 +113,13 @@
   name: tinted window
   components:
   - type: Sprite
-    sprite: Structures/Windows/window-tinted.rsi
+  # Classic: Respritening removed this drawdepth.
+    drawdepth: WallTops
+  # Classic: Respritening renamed.
+    sprite: Structures/Windows/tinted_window.rsi
   - type: Icon
-    sprite: Structures/Windows/window-tinted.rsi
+  # Classic: Respritening renamed.
+    sprite: Structures/Windows/tinted_window.rsi
   - type: IconSmooth
     base: twindow
   - type: Construction
@@ -313,7 +323,10 @@
     - Window
   components:
   - type: Sprite
-    sprite: Structures/Windows/window-base-diagonal.rsi
+  # Classic: Restored drawdepth.
+    drawdepth: WallTops
+  # Classic: Respritening renamed.
+    sprite: Structures/Windows/window_diagonal.rsi
     state: state0
   - type: Tag
     tags:
@@ -321,10 +334,12 @@
     - Window
   - type: IconSmooth
     mode: Diagonal
-    key: walls
+  # Classic: Restored smoothing group.
+    key: windows
     base: state
   - type: Icon
-    sprite: Structures/Windows/window-base-diagonal.rsi
+  # Classic: Respritening renamed.
+    sprite: Structures/Windows/window_diagonal.rsi
     state: state0
   - type: Fixtures
     fixtures:
