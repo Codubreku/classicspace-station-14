@@ -706,11 +706,12 @@
   graph: CarpStatue
   targetNode: statue
 
+# Classic: Readded. Respritening replaced this with OrnateClownStatue.
 - type: construction
   parent: BaseStructureFullTile
-  id: OrnateClownStatue
-  graph: OrnateStatueClown
-  targetNode: ornateStatueClown
+  id: BananiumClownStatue
+  graph: BananiumStatueClown
+  targetNode: bananiumStatue
 
 - type: construction
   parent: BaseStructureFullTile

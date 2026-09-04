@@ -12,8 +12,10 @@
             - tag: CrystalCyan
               name: construction-graph-tag-cyan-crystal-shard
               icon:
-                sprite: Objects/Materials/Shards/crystal-shard.rsi
-                state: shard0
+              # Classic: Respritening renamed.
+                sprite: Objects/Materials/Shards/crystal.rsi
+              # Classic: Restored state.
+                state: shard1
                 color: #52ff39
               doAfter: 1
     - node: icon
@@ -33,7 +35,8 @@
             - tag: CrystalBlue
               name: construction-graph-tag-blue-crystal-shard
               icon:
-                sprite: Objects/Materials/Shards/crystal-shard.rsi
+              # Classic: Respritening renamed.
+                sprite: Objects/Materials/Shards/crystal.rsi
                 state: shard1
               doAfter: 1
     - node: icon
@@ -53,8 +56,10 @@
             - tag: CrystalYellow
               name: construction-graph-tag-yellow-crystal-shard
               icon:
-                sprite: Objects/Materials/Shards/crystal-shard.rsi
-                state: shard2
+              # Classic: Respritening renamed.
+                sprite: Objects/Materials/Shards/crystal.rsi
+              # Classic: Restored state.
+                state: shard1
               doAfter: 1
     - node: icon
       entity: LightTubeCrystalYellow
@@ -73,8 +78,10 @@
             - tag: CrystalPink
               name: construction-graph-tag-pink-crystal-shard
               icon:
-                sprite: Objects/Materials/Shards/crystal-shard.rsi
-                state: shard3
+              # Classic: Respritening renamed.
+                sprite: Objects/Materials/Shards/crystal.rsi
+              # Classic: Restored state.
+                state: shard1
               doAfter: 1
     - node: icon
       entity: LightTubeCrystalPink
@@ -93,8 +100,10 @@
             - tag: CrystalOrange
               name: construction-graph-tag-orange-crystal-shard
               icon:
-                sprite: Objects/Materials/Shards/crystal-shard.rsi
-                state: shard0
+              # Classic: Respritening renamed.
+                sprite: Objects/Materials/Shards/crystal.rsi
+              # Classic: Restored state.
+                state: shard1
               doAfter: 1
     - node: icon
       entity: LightTubeCrystalOrange
@@ -113,7 +122,8 @@
             - tag: CrystalBlack
               name: construction-graph-tag-black-crystal-shard
               icon:
-                sprite: Objects/Materials/Shards/crystal-shard.rsi
+              # Classic: Respritening renamed.
+                sprite: Objects/Materials/Shards/crystal.rsi
                 state: shard1
               doAfter: 1
     - node: icon
@@ -133,8 +143,10 @@
             - tag: CrystalRed
               name: construction-graph-tag-red-crystal-shard
               icon:
-                sprite: Objects/Materials/Shards/crystal-shard.rsi
-                state: shard2
+              # Classic: Respritening renamed.
+                sprite: Objects/Materials/Shards/crystal.rsi
+              # Classic: Restored state.
+                state: shard1
               doAfter: 1
     - node: icon
       entity: LightTubeCrystalRed
@@ -153,8 +165,10 @@
             - tag: CrystalGreen
               name: construction-graph-tag-green-crystal-shard
               icon:
-                sprite: Objects/Materials/Shards/crystal-shard.rsi
-                state: shard3
+              # Classic: Respritening renamed.
+                sprite: Objects/Materials/Shards/crystal.rsi
+              # Classic: Restored state.
+                state: shard1
               doAfter: 1
     - node: icon
       entity: LightTubeCrystalGreen
@@ -173,8 +187,10 @@
       - tag: CrystalCyan
         name: construction-graph-tag-cyan-crystal-shard
         icon:
-          sprite: Objects/Materials/Shards/crystal-shard.rsi
-          state: shard0
+        # Classic: Respritening renamed.
+          sprite: Objects/Materials/Shards/crystal.rsi
+        # Classic: Restored state.
+          state: shard1
           color: #52ff39
         doAfter: 1
   - node: icon
@@ -194,7 +210,8 @@
       - tag: CrystalBlue
         name: construction-graph-tag-blue-crystal-shard
         icon:
-          sprite: Objects/Materials/Shards/crystal-shard.rsi
+        # Classic: Respritening renamed.
+          sprite: Objects/Materials/Shards/crystal.rsi
           state: shard1
         doAfter: 1
   - node: icon
@@ -214,8 +231,10 @@
       - tag: CrystalYellow
         name: construction-graph-tag-yellow-crystal-shard
         icon:
-          sprite: Objects/Materials/Shards/crystal-shard.rsi
-          state: shard2
+        # Classic: Respritening renamed.
+          sprite: Objects/Materials/Shards/crystal.rsi
+        # Classic: Restored state.
+          state: shard1
         doAfter: 1
   - node: icon
     entity: LightBulbCrystalYellow
@@ -234,8 +253,10 @@
       - tag: CrystalPink
         name: construction-graph-tag-pink-crystal-shard
         icon:
-          sprite: Objects/Materials/Shards/crystal-shard.rsi
-          state: shard3
+        # Classic: Respritening renamed.
+          sprite: Objects/Materials/Shards/crystal.rsi
+        # Classic: Restored state.
+          state: shard1
         doAfter: 1
   - node: icon
     entity: LightBulbCrystalPink
@@ -254,8 +275,10 @@
       - tag: CrystalOrange
         name: construction-graph-tag-orange-crystal-shard
         icon:
-          sprite: Objects/Materials/Shards/crystal-shard.rsi
-          state: shard0
+        # Classic: Respritening renamed.
+          sprite: Objects/Materials/Shards/crystal.rsi
+        # Classic: Restored state.
+          state: shard1
         doAfter: 1
   - node: icon
     entity: LightBulbCrystalOrange
@@ -274,7 +297,8 @@
       - tag: CrystalBlack
         name: construction-graph-tag-black-crystal-shard
         icon:
-          sprite: Objects/Materials/Shards/crystal-shard.rsi
+        # Classic: Respritening renamed.
+          sprite: Objects/Materials/Shards/crystal.rsi
           state: shard1
         doAfter: 1
   - node: icon
@@ -294,8 +318,10 @@
       - tag: CrystalRed
         name: construction-graph-tag-red-crystal-shard
         icon:
-          sprite: Objects/Materials/Shards/crystal-shard.rsi
-          state: shard2
+        # Classic: Respritening renamed.
+          sprite: Objects/Materials/Shards/crystal.rsi
+        # Classic: Restored state.
+          state: shard1
         doAfter: 1
   - node: icon
     entity: LightBulbCrystalRed
@@ -314,8 +340,10 @@
       - tag: CrystalGreen
         name: construction-graph-tag-green-crystal-shard
         icon:
-          sprite: Objects/Materials/Shards/crystal-shard.rsi
-          state: shard3
+        # Classic: Respritening renamed.
+          sprite: Objects/Materials/Shards/crystal.rsi
+        # Classic: Restored state.
+          state: shard1
         doAfter: 1
   - node: icon
     entity: LightBulbCrystalGreen

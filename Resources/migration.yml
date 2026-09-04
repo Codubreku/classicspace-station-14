@@ -1127,7 +1127,7 @@ MeteorRockGold: AsteroidRockGold
 MeteorRockPlasma: AsteroidRockPlasma
 MeteorRockDiamond: AsteroidRockDiamond
 MeteorRockUranium: AsteroidRockUranium
-StatueBananiumClown: StatueOrnateClown
+#StatueBananiumClown: StatueOrnateClown # Classic: Removed.
 
 #2026-08-18
 DrinkNeurotoxinGlass: null
@@ -1162,3 +1162,4 @@ MalignWindow: Window
 RegalWindow: Window
 MeteorRockBananium: AsteroidRockBananium
 ButtonFrameWhite: ButtonFrameExit
+StatueOrnateClown: StatueBananiumClown
