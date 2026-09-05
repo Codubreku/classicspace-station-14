@@ -26,6 +26,7 @@
   id: BaseItemRecharger
   components:
   - type: Sprite
+    snapCardinals: false
     drawdepth: SmallObjects
     layers:
     - map: ["enum.PowerChargerVisualLayers.Base"]
